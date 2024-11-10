@@ -1,10 +1,23 @@
 package es.etg.psp.museo.hilos;
 
-public class Hilo implements Runnable{
+import es.etg.psp.museo.Sala;
+
+public class Hilo implements Runnable {
+    private Sala sala;
+    private boolean esEntrada;
+
+    public Hilo(Sala sala, boolean esEntrada) {
+        this.sala = sala;
+        this.esEntrada = esEntrada;
+    }
 
     @Override
     public void run() {
-        int time = (int) (Math.random() +6000) + 2000;
+        if (esEntrada) {
+            sala.entrar();
+        } else {
+            sala.salir();
+        }
     }
-    
+
 }

@@ -26,7 +26,6 @@ public class Lanzador {
             BufferedReader read = new BufferedReader(new InputStreamReader(process.getInputStream()));
             String line;
             Salida sal = new Salida();
-            
             sal.vaciar();
             while ((line = read.readLine()) != null) {
                 System.out.println(line);

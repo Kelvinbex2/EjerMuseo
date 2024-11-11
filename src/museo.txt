@@ -23,4 +23,4 @@ Saliendo 12 persona
 Saliendo 13 persona
 Saliendo 14 persona
 Saliendo 15 persona
-N�mero final de visitantes en la sala: 95
+Numero final de visitantes en la sala: 95

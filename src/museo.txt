@@ -1,26 +1,26 @@
-Entrando 1 persona
-Entrando 2 persona
-Entrando 3 persona
-Entrando 4 persona
-Entrando 5 persona
-Entrando 6 persona
-Entrando 7 persona
-Entrando 8 persona
-Entrando 9 persona
-Entrando 10 persona
-Saliendo 1 persona
-Saliendo 2 persona
-Saliendo 3 persona
-Saliendo 4 persona
-Saliendo 5 persona
-Saliendo 6 persona
-Saliendo 7 persona
-Saliendo 8 persona
-Saliendo 9 persona
-Saliendo 10 persona
-Saliendo 11 persona
-Saliendo 12 persona
-Saliendo 13 persona
-Saliendo 14 persona
-Saliendo 15 persona
+Thread-13 Saliendo persona, visitantes actuales: 106
+Thread-21 Saliendo persona, visitantes actuales: 98
+Thread-24 Saliendo persona, visitantes actuales: 95
+Thread-7 Entrando persona, visitantes actuales: 108
+Thread-19 Saliendo persona, visitantes actuales: 99
+Thread-17 Saliendo persona, visitantes actuales: 102
+Thread-20 Saliendo persona, visitantes actuales: 100
+Thread-23 Saliendo persona, visitantes actuales: 96
+Thread-6 Entrando persona, visitantes actuales: 107
+Thread-2 Entrando persona, visitantes actuales: 103
+Thread-22 Saliendo persona, visitantes actuales: 97
+Thread-4 Entrando persona, visitantes actuales: 105
+Thread-3 Entrando persona, visitantes actuales: 104
+Thread-0 Entrando persona, visitantes actuales: 101
+Thread-9 Entrando persona, visitantes actuales: 110
+Thread-16 Saliendo persona, visitantes actuales: 103
+Thread-15 Saliendo persona, visitantes actuales: 104
+Thread-18 Saliendo persona, visitantes actuales: 101
+Thread-8 Entrando persona, visitantes actuales: 109
+Thread-5 Entrando persona, visitantes actuales: 106
+Thread-14 Saliendo persona, visitantes actuales: 105
+Thread-1 Entrando persona, visitantes actuales: 102
+Thread-10 Saliendo persona, visitantes actuales: 109
+Thread-12 Saliendo persona, visitantes actuales: 107
+Thread-11 Saliendo persona, visitantes actuales: 108
 Numero final de visitantes en la sala: 95

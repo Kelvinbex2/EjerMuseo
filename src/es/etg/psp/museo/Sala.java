@@ -12,16 +12,16 @@ public class Sala {
         return contardorVisitantes;
     }
 
-    public void setContardorVisitantes(int contardorVisitantes) {
+    public  void setContardorVisitantes(int contardorVisitantes) {
         this.contardorVisitantes = contardorVisitantes;
     }
 
-     public void entrar(){
+     public synchronized void entrar(){
         contardorVisitantes++;
         
      }
 
-     public void salir(){
+     public synchronized void salir(){
         if (contardorVisitantes > 0) {
             contardorVisitantes--;
         }

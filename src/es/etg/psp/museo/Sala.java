@@ -9,6 +9,9 @@ public class Sala {
 
   
     public int getContardorVisitantes() {
+        if (contardorVisitantes > 100) {
+            throw new IllegalStateException("Se ha excedido la capacidad máxima de la sala.");
+        }
         return contardorVisitantes;
     }
 

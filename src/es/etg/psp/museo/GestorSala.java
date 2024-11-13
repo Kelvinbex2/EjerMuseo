@@ -18,19 +18,21 @@ public class GestorSala {
     public static void simular() throws InterruptedException {
         Sala sala = new Sala();
         Thread[] hilo = new Thread[25];
+        
+        for (int i = 1; i <= 15; i++) {
+       
+            hilo[ i - 1] = new Thread(new SalidaVis(sala));
+            hilo[ i - 1].start();
+        }
 
         for (int i = 1; i <= 10; i++) {
           
-            hilo[i - 1] = new Thread(new Entrada(sala));
-            hilo[i - 1].start();
+            hilo[15 + i - 1] = new Thread(new Entrada(sala));
+            hilo[15 + i - 1].start();
 
         }
 
-        for (int i = 1; i <= 15; i++) {
-       
-            hilo[10 + i - 1] = new Thread(new SalidaVis(sala));
-            hilo[10 + i - 1].start();
-        }
+        
 
         for (Thread thread : hilo) {
             thread.join();

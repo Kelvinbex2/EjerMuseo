@@ -6,6 +6,7 @@ import es.etg.psp.museo.salida.SalidaVis;
 public class GestorSala {
 
     private static final String NUMERO_FINAL_VISITANTES = "Numero final de visitantes en la sala: %d";
+    private static final int SIZE = 25;
 
     public static void main(String[] args) {
         try {
@@ -17,7 +18,7 @@ public class GestorSala {
 
     public static void simular() throws InterruptedException {
         Sala sala = new Sala();
-        Thread[] hilo = new Thread[25];
+        Thread[] hilo = new Thread[SIZE];
         
         for (int i = 1; i <= 15; i++) {
        
